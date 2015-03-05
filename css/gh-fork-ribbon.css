@@ -1,0 +1,55 @@
+/*!
+ * "Fork me on GitHub" CSS ribbon v0.1.1 | MIT License
+ * https://github.com/simonwhitaker/github-fork-ribbon-css
+ * modified by Mitchell Kember
+*/
+
+#forkme {
+	position: absolute;
+	padding: 2px 0;
+	background-color: #fafafa;
+	font: 15px 'Triplicate T3';
+	z-index: 9999;
+	pointer-events: auto;
+	top: 46px;
+	right: -40px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	border-width: 1px 0;
+	border-style: dotted;
+	border-color: #000;
+}
+
+#forkme a, #forkme a:hover {
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	width: 200px;
+	line-height: 20px;
+	display: inline-block;
+	padding: 2px 0;
+}
+
+#forkme a:hover {
+	border:none;
+	text-decoration: underline;
+	color: #16c;
+}
+
+#forkme a:visited:hover {
+	color: #52c;
+}
+
+#forkme-wrapper {
+	width: 160px;
+	height: 160px;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+	z-index: 9999;
+	pointer-events: none;
+}
